@@ -37,7 +37,7 @@ export default function Web3Provider({ children }) {
 
   return (
     <ModalProvider
-      theme="dark"
+      theme="light"
       language="en"
       options={{
         projectId,
