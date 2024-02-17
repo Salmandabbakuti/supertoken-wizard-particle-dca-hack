@@ -6,6 +6,10 @@ import {
   Polygon,
   EthereumGoerli,
   PolygonMumbai,
+  Base,
+  Avalanche,
+  BNBChain,
+  Celo,
   EthereumSepolia
 } from "@particle-network/chains";
 import { evmWallets } from "@particle-network/connectors";
@@ -20,7 +24,11 @@ const supportedChains = [
   EthereumGoerli,
   EthereumSepolia,
   Polygon,
-  PolygonMumbai
+  PolygonMumbai,
+  Base,
+  Avalanche,
+  BNBChain,
+  Celo
 ];
 
 export default function Web3Provider({ children }) {
@@ -42,12 +50,17 @@ export default function Web3Provider({ children }) {
             showQrModal: true
           })
         ],
-        authTypes: ["google", "github"],
+        authTypes: ["email", "phone", "google", "github", "microsoft"],
         wallet: {
           customStyle: {
             visible: true,
-            supportChains: [Ethereum, EthereumGoerli, Polygon, PolygonMumbai]
+            supportChains: supportedChains
           }
+        },
+        fiatCoin: "USD",
+        erc4337: {
+          name: "SIMPLE",
+          version: "1.0.0"
         }
       }}
     >
