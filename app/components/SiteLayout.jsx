@@ -33,7 +33,8 @@ export default function SiteLayout({ children }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made with ❤️ by Salman Dabbakuti. Powered by Nextjs & Ant Design
+          Made with ❤️ by Salman Dabbakuti. Powered by Particle Network &
+          Superfluid
         </a>
       </Footer>
     </Layout>
