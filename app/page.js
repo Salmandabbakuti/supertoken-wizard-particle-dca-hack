@@ -1,3 +1,4 @@
+import { ConnectButton } from "@particle-network/connectkit";
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -11,6 +12,7 @@ export default function Home() {
         width={72}
         height={16}
       />
+      <ConnectButton />
     </main>
   );
 }
