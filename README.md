@@ -1,22 +1,28 @@
 # SuperToken Wizard
 
-The SuperToken Wizard is a web-based interface that allows developers or individuals to easily deploy a Super Token contract without the need for manually searching for the right contracts and parameters or configuring them individually. With this wizard, you can quickly generate a customized Super Token contract based on your specific needs, copy it or open in remix directly for further customization and deployment, Wizard also allow you to deploy and initialize Super Token contract right from the app. You can also switch between different blockchain networks with in the wizard to deploy Super Tokens on your preferred network.
+The SuperToken Wizard is a web-based interface that allows developers or individuals to easily deploy a Super Token contract without the need for manually searching for the right contracts and parameters or configuring them individually. With this wizard, you can quickly generate a customized Super Token contract based on your specific needs, copy it or open in remix directly for further customization and deployment, Wizard also allow you to deploy and initialize Super Token contract right from the app. Utilizing Particle Auth, it offers seamless social login integration, enabling authentication via Google, GitHub, email, phone, and blockchain wallets like MetaMask, WalletConnect, and RainbowKit. You can also switch between different blockchain networks with in the wizard to deploy Super Tokens on your preferred network.
 
-![Screen1](https://github.com/Salmandabbakuti/super-token-wizard/assets/29351207/3ee036eb-3868-4b6a-af2c-f15d7bfe745d)
+![Screen1](https://github.com/Salmandabbakuti/supertoken-wizard-particle-dca-hack/assets/29351207/f26d0fa3-86ee-4290-bc41-ee3735dba734)
 
-![Screen2](https://github.com/Salmandabbakuti/super-token-wizard/assets/29351207/95c61074-9a7b-4bbb-beb2-6d2c5eacaf42)
+![Screen2](https://github.com/Salmandabbakuti/supertoken-wizard-particle-dca-hack/assets/29351207/4c0a615b-f62b-4ae7-8df0-4c68240622ff)
+
+![Screen3](https://github.com/Salmandabbakuti/supertoken-wizard-particle-dca-hack/assets/29351207/e3c29e07-4663-47e2-be55-78167deecd11)
+
+![Screen4](https://github.com/Salmandabbakuti/supertoken-wizard-particle-dca-hack/assets/29351207/593b5976-8288-48d4-bd29-06a57b894470)
 
 ## Features
 
 **1. Connect Wallet and Switch Networks:** The wizard allows you to connect your wallet and switch between different blockchain networks, enabling you to deploy Super Tokens on your preferred network.
 
-**2. Customizable Contract Generation:** You can input parameters such as token name, token symbol, premint quantity, and premint receiver address to generate a customized contract code for your Super Token. Additionally, you can enable or disable features like mintable, burnable, capped supply and access control(ownable or roles) for the token.
+**2. Social Login and Multi-Network Support:** Leveraging Particle Auth, the SuperToken Wizard offers a streamlined authentication process. Users can sign in using popular social platforms such as Google, GitHub, email, phone, as well as blockchain wallets like MetaMask, WalletConnect, and RainbowKit. The SuperToken Wizard supports deployment on various blockchain networks, allowing users to seamlessly switch between networks based on their preferences and requirements. 
 
-**3. Copy and Open in Remix:** The generated contract code can be easily copied or opened in Remix IDE directly for further customization and deployment.
+**3. Customizable Contract Generation:** You can input parameters such as token name, token symbol, premint quantity, and premint receiver address to generate a customized contract code for your Super Token. Additionally, you can enable or disable features like mintable, burnable, capped supply and access control(ownable or roles) for the token.
 
-**4. Compile and Copy Artifacts:** The wizard provides the functionality to compile the contract code and copy the compiled artifacts, including the ABI and bytecode, for future reference or integration with other tools.
+**4. Copy and Open in Remix:** The generated contract code can be easily copied or opened in Remix IDE directly for further customization and deployment.
 
-**5. Deploy and Initialize:** The wizard allows you to deploy and initialize the Super Token contract right from the app. You can also view the transaction details and the deployed contract address.
+**5. Compile and Copy Artifacts:** The wizard provides the functionality to compile the contract code and copy the compiled artifacts, including the ABI and bytecode, for future reference or integration with other tools.
+
+**6. Deploy and Initialize:** The wizard allows you to deploy and initialize the Super Token contract right from the app. You can also view the transaction details and the deployed contract address.
 
 #### Tech Stack
 
