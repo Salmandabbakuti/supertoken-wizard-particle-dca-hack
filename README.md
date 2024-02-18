@@ -1,5 +1,9 @@
 # SuperToken Wizard
 
+## Okay, First, What are SuperTokens and Superfluid Protocol
+
+Super Tokens extend the ERC20 token standard by integrating additional functionalities like streams and distributions. Superfluid Protocol is a framework for building programmable and composable tokens on blockchain. It enables real-time, permissionless, and frictionless token transfers with customizable properties such as continuous token streams, instantaneous payments, and tokenized memberships. Superfluid tokens can represent various assets, including money, services, or even shares in a DAO. 
+
 The SuperToken Wizard is a web-based interface that allows developers or individuals to easily deploy a Super Token contract without the need for manually searching for the right contracts and parameters or configuring them individually. With this wizard, you can quickly generate a customized Super Token contract based on your specific needs, copy it or open in remix directly for further customization and deployment, Wizard also allow you to deploy and initialize Super Token contract right from the app. Utilizing Particle Auth, it offers seamless social login integration, enabling authentication via Google, GitHub, email, phone, and blockchain wallets like MetaMask, WalletConnect, and RainbowKit. You can also switch between different blockchain networks with in the wizard to deploy Super Tokens on your preferred network.
 
 ![Screen1](https://github.com/Salmandabbakuti/supertoken-wizard-particle-dca-hack/assets/29351207/f26d0fa3-86ee-4290-bc41-ee3735dba734)
@@ -72,6 +76,8 @@ https://github.com/Salmandabbakuti/super-token-wizard/assets/29351207/4645190e-d
 
 - [Particle Network Auth](https://developers.particle.network/reference/auth-web)
 - [Particle Network Connect](https://developers.particle.network/reference/connect-web#connect-core)
+- [SuperTokens Overview](https://docs.superfluid.finance/docs/protocol/super-tokens/overview)
+- [Superfluid Protocol Overview](https://docs.superfluid.finance/docs/protocol/quickstart)
 - [Superfluid Bounties](https://github.com/superfluid-finance/custom-supertokens/issues/25)
 - [Superfluid Guides](https://docs.superfluid.finance/superfluid/resources/integration-guides)
 - [Hardhat](https://hardhat.org/getting-started/)
