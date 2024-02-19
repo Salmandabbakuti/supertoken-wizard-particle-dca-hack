@@ -70,7 +70,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Demo
 
-https://github.com/Salmandabbakuti/super-token-wizard/assets/29351207/4645190e-dd75-400b-8e85-7f5dae9b2c36
+TBA
 
 ## Credits & Resources:
 
